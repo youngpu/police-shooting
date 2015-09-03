@@ -1,10 +1,11 @@
 // Function to draw your map
 var drawMap() = function() {
 
-  // Create map and set viewd
+  // Create map and set view
  
 
   // Create an tile layer variable using the appropriate url
+
 
   // Add the layer to your map
  
@@ -23,7 +24,7 @@ var getData = function() {
 
 }
 
-// Do something creative with the data here!  
+// Loop through your data and add each element to the map with different styles.
 var customBuild = function() {
 
   
