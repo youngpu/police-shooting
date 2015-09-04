@@ -4,7 +4,7 @@ var drawMap() = function() {
   // Create map and set view
  
 
-  // Create an tile layer variable using the appropriate url
+  // Create a tile layer variable using the appropriate url
 
 
   // Add the layer to your map
@@ -24,9 +24,11 @@ var getData = function() {
 
 }
 
-// Loop through your data and add each element to the map with different styles.
+// Loop through your data and add the appropriate layers and points
 var customBuild = function() {
+	// Be sure to add each layer to the map
 
+	// Once layers are on the map, add a leaflet controller that shows/hides layers
   
 }
 
