@@ -1,4 +1,102 @@
-/* You'll probably want to add some styles here */
-#container {
-	height:800px;
+body {
+	font-family: "Arial", Helvetica, sans-serif;
+	color: black;
+}
+
+header {
+	text-align: center;
+	font-size: 35px ;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	background-color: #3D3D3D;
+	color: white;
+	font-weight: bold;
+}
+
+#description {
+	font-size: 20px;
+}
+
+/* Table */
+#tableInfo {
+	text-align: center;
+	margin-bottom: 1em;	
+}
+
+#tableInfo a:hover{
+	text-decoration: none;
+}
+
+#table {
+	border-color: black;
+	color: white;
+}
+
+#table tr {
+	text-align: center;
+}
+
+#table td {
+	text-align: center;	
+	font-weight: bold;
+	background-color: #3D3D3D;
+}
+
+#row1 {
+	background-color: #111111;
+}
+
+#row1 th {
+	text-align: center;
+}
+
+#tableArmed {
+	background-color: #111111;
+	text-align: center;
+}
+
+#tableUnarmed {
+	background-color: #111111;
+	text-align: center;
+}
+
+#hit {
+	color: gray;
+	font-weight: bold;
+	font-style: italic;
+}
+
+#killed {
+	font-weight: bold;
+	font-style: italic;
+}
+
+/* Map */
+#mapInfo {
+	text-align: center;
+	margin-bottom: 1em;
+}
+
+#mapInfo a:hover{
+	text-decoration: none;
+}
+
+#male {
+	color: blue;
+	font-weight: bold;
+}
+
+#female {
+	color: red;
+	font-weight: bold;
+}
+
+#unspecified {
+	color: green;
+	font-weight: bold;
+}
+
+#map {
+	height: 800px;
+	padding-bottom: 3em;
 }
